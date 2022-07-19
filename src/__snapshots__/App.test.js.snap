@@ -48,6 +48,29 @@ exports[`matches snapshot 1`] = `
         </button>
       </form>
     </div>
+    <div>
+      <h1>
+        Current Todos
+      </h1>
+      <ul />
+      <form>
+        <label
+          for="task"
+        >
+          Task
+        </label>
+        <input
+          id="task"
+          name="task"
+          placeholder="Todo Task"
+          type="text"
+          value=""
+        />
+        <button>
+          Add Todo
+        </button>
+      </form>
+    </div>
   </div>
 </DocumentFragment>
 `;
