@@ -4,11 +4,7 @@ import Box from './Box';
 
 const BoxList = () => {
 	//set state
-	const [ boxes, setBoxes ] = useState([
-		{ width: 5, height: 5, color: 'blue', id: 'blue' },
-		{ width: 7, height: 7, color: 'teal', id: 'teal' },
-		{ width: 3, height: 3, color: 'magenta', id: 'magenta' }
-	]);
+	const [ boxes, setBoxes ] = useState([]);
 
 	//add a box to state
 	const addBox = (newBox) => {

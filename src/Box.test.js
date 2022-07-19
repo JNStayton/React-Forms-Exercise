@@ -1,11 +1,11 @@
 import { render } from '@testing-library/react';
-import App from './App';
+import Box from './Box';
 
-it('renders', () => {
-	render(<App />);
+it('renders without crashing', () => {
+	render(<Box />);
 });
 
 it('matches snapshot', () => {
-	const { asFragment } = render(<App />);
+	const { asFragment } = render(<Box />);
 	expect(asFragment()).toMatchSnapshot();
 });
